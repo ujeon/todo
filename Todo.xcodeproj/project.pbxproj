@@ -94,8 +94,11 @@
 		F2B79F922882B585005682EF /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				F2B79FC02882B5B9005682EF /* Components */,
+				F2B79FBF2882B5AF005682EF /* Views */,
+				F2B79FBE2882B5A4005682EF /* ViewModels */,
+				F2B79FBD2882B594005682EF /* Models */,
 				F2B79F932882B585005682EF /* TodoApp.swift */,
-				F2B79F952882B585005682EF /* ContentView.swift */,
 				F2B79F972882B586005682EF /* Assets.xcassets */,
 				F2B79F992882B586005682EF /* Preview Content */,
 			);
@@ -125,6 +128,35 @@
 				F2B79FB02882B586005682EF /* TodoUITestsLaunchTests.swift */,
 			);
 			path = TodoUITests;
+			sourceTree = "<group>";
+		};
+		F2B79FBD2882B594005682EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2B79FBE2882B5A4005682EF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F2B79FBF2882B5AF005682EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2B79F952882B585005682EF /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2B79FC02882B5B9005682EF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
